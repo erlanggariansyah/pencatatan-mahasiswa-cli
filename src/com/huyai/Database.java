@@ -2,6 +2,8 @@ package com.huyai;
 
 import com.huyai.model.Mahasiswa;
 
+import java.util.ArrayList;
+
 public class Database {
-    Mahasiswa[] DbMahasiswa;
+    public static ArrayList<Mahasiswa> DbMahasiswa = new ArrayList<>();
 }
