@@ -1,6 +1,6 @@
 package com.huyai.model;
 
-public class Mahasiswa extends Person implements InterfaceMahasiswa {
+public class Mahasiswa extends Person {
     private Long nim;
 
     public Mahasiswa(String nama, Integer umur, Long nim) {
@@ -23,11 +23,12 @@ public class Mahasiswa extends Person implements InterfaceMahasiswa {
         this.nim = nim;
     }
 
+    @Override
     public String selfIntroduce() {
         return "Hai, nama saya " +
                 this.getNama() +
-                "! Saya berumur " +
-                this.getUmur() +
-                " tahun.";
+                "! nim saya adalah " +
+                this.getNim() +
+                ".";
     }
 }

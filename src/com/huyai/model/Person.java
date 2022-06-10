@@ -1,6 +1,6 @@
 package com.huyai.model;
 
-public class Person {
+public class Person implements PersonInterface {
     private String nama;
     private Integer umur;
 
@@ -31,5 +31,10 @@ public class Person {
 
     public void setUmur(Integer umur) {
         this.umur = umur;
+    }
+
+    @Override
+    public String selfIntroduce() {
+        return "Hai! Perkenalkan nama saya " + this.getNama() + ", saya berumur " + this.getUmur() + " tahun.";
     }
 }

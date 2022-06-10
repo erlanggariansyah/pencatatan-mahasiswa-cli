@@ -1,5 +1,5 @@
 package com.huyai.model;
 
-public interface InterfaceMahasiswa {
+public interface PersonInterface {
     String selfIntroduce();
 }
