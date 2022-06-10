@@ -59,7 +59,7 @@ public class Menu {
 
     /**
      * static function getInput dengan acccess modifiers public
-     * fungsi ini bertugas sebagai helper untuk mengambil input dari console dan memiliki error handling
+     * fungsi/method ini bertugas sebagai helper untuk mengambil input dari console dan memiliki error handling
      */
     public static Integer getInput() {
         // deklarasi variable scanner dengan expect value tipe class Scanner
