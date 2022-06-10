@@ -34,7 +34,7 @@ public class Menu {
 
     public static Integer getInput() {
         Scanner scanner;
-        Integer output = 0;
+        int output = 0;
 
         System.out.println("Pilihan: ");
         try {
